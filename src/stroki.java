@@ -4,7 +4,8 @@ import java.util.Scanner;
 public class stroki {
 
     public static void main(String[] args) {
-        //1
+        /*
+//1
           Scanner sc = new Scanner(System.in); // создаём объект класса Scanner
         String Dopusk=" qwertyuiopasdfghjklzxcvbnm1234567890_ ";//все что можно
         String digits="0987654321";//без коментариев
@@ -47,7 +48,7 @@ public class stroki {
         }
 
 
-        //2
+//2
         Scanner sc=new Scanner(System.in);
         System.out.println("Введите N");
         int N= sc.nextInt();
@@ -64,7 +65,7 @@ public class stroki {
         }
         System.out.println("Строка длины N , заполнена шаблонами- "+strN);
 
-        //3 4
+//3 4
         String S ="Ты ЧеГо ТаКаЯ БяКа)? Ne Zlis))";
         String dopusk="ЙЦУКЕЁНГШЩЗХЪЭЖДЮБЛЬОТРИПМАСВЧЫФЯ";
         char[] dopuskch=dopusk.toCharArray();//массив русских букв
@@ -79,7 +80,7 @@ public class stroki {
         }
         System.out.println(S);
         System.out.println(ishod);
-         //5-6
+ //5-6
         String S="amsterdam";
         char c='m';
         for(int x=0;x<S.length();x++){
@@ -89,7 +90,7 @@ public class stroki {
             }
         }
         System.out.println(S);
-         //7
+//7
         String S="0123456789абвгде";
         String reverse="";
         char[] S1=S.toCharArray();
@@ -112,7 +113,7 @@ public class stroki {
         }
         System.out.println(S);
         System.out.println(reverse+" N="+N+" K="+K);
-         //8
+//8
         String S="Саша Шла Саша по шоссе и сосала сушку";
         String isk="";
         String slovo="Вика";
@@ -136,8 +137,7 @@ public class stroki {
         }else{
             System.out.println(slovo+" не найдено "+0);
         }
-
-         */
+//9
         String S="_12_45_789012_4_67";//оригинал поиска
         String slovo="_";//что будем искать
         int index;//индекс первого вхождения
