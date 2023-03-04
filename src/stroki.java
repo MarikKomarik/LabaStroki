@@ -6,7 +6,7 @@ public class stroki {
     public static void main(String[] args) {
         /*
 //1
-          Scanner sc = new Scanner(System.in); // создаём объект класса Scanner
+          Scanner sc = new Scanner(System.in); // создаём объект класса Scanner121212121
         String Dopusk=" qwertyuiopasdfghjklzxcvbnm1234567890_ ";//все что можно
         String digits="0987654321";//без коментариев
         System.out.print("Введите строку");
@@ -154,6 +154,8 @@ public class stroki {
         System.out.println(K-1+" - индекс последнего вхождения:");
         System.out.println(slovo+" в "+S);
 
+         */
+        System.out.println(1);
 
 
 
