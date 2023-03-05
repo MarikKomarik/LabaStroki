@@ -210,7 +210,7 @@ public class stroki {
         }
         System.out.println("число "+S+" в 16ричном:"+shest);
 
-         */
+//15
         String _16="4D2";//А в юникоде это 65 , а 0 это 48
         double temp;//хранит в себе смысл 16ричной цифры в 10чном виде
         double stepen=0;//без коментариев
@@ -225,6 +225,8 @@ public class stroki {
             stepen=stepen+1;//с каждым циклом степень 16 надо увеличивать
         }
         System.out.println(_16+" это "+(int)dvoich);
+
+         */
 
     }
 }
