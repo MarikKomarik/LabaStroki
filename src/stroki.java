@@ -226,7 +226,33 @@ public class stroki {
         }
         System.out.println(_16+" это "+(int)dvoich);
 
-         */
+//12
+         String S="Сегодня хороший день без грусти и зла ";
+         int K=1;//номер слова которое надо найти
+         int chet=0;//для сравнения с условием
+         String isk=S;
+         for (int x=0;x<K;x++){
+             chet++;
+             if(chet==K){//пишем иск до пробела(слово)
+                 System.out.println((isk.substring(0,isk.indexOf(" ")))+"-"+K+" Слово");
+                 System.out.println(S);
+                 break;
+             }
+             isk=isk.substring(isk.indexOf(" ")+1);//иск - предложение со след слова
+         }
+
+  //12       */
+        String S="Сегодня хороший день без грусти и зла ";
+        int W=1;
+        String[] Sarr=new String[W];
+        String isk=S;
+        System.out.println("W="+W+"\n"+S+"\n"+"Элементы массива ниже");
+        for (int x=0;x<W;x++){
+            Sarr[x]=isk.substring(0,isk.indexOf(" "));
+            System.out.print("["+Sarr[x]+"]");
+            isk=isk.substring(isk.indexOf(" ")+1);//иск - предложение со след слова
+        }
+
 
     }
 }
