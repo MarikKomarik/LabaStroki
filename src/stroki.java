@@ -252,7 +252,7 @@ public class stroki {
             System.out.print("["+Sarr[x]+"]");
             isk=isk.substring(isk.indexOf(" ")+1);//иск - предложение со след слова
         }
-
+12121212121
 
     }
 }
