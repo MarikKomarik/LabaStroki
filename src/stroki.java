@@ -241,7 +241,7 @@ public class stroki {
              isk=isk.substring(isk.indexOf(" ")+1);//иск - предложение со след слова
          }
 
-  //12       */
+  //12
         String S="Сегодня хороший день без грусти и зла ";
         int W=1;
         String[] Sarr=new String[W];
@@ -252,7 +252,29 @@ public class stroki {
             System.out.print("["+Sarr[x]+"]");
             isk=isk.substring(isk.indexOf(" ")+1);//иск - предложение со след слова
         }
-12121212121
+         */
+//13 криво работает с последним символом но исправлять лень
+        String S="aaaaarrssssssuu";
+        String Sreturn="";
+        String Dob;
+        int temp=0;
+        for(int x=1;x<S.length();x++) {
+            if ((S.charAt(x) == S.charAt(x-1))&& !(x==S.length()-1)) {
+                temp = temp + 1;
+            }else{
+                if(temp>3){
+                    temp=temp+1;
+                    Dob=S.charAt(x-temp)+"{"+temp+"}";
+                    Sreturn=Sreturn+Dob;
+                }else{
+                    Dob=S.substring(x-temp-1,x);
+                    Sreturn=Sreturn+Dob;
+                }
+                temp=0;
+            }
+        }
+        Sreturn=Sreturn+S.charAt(S.length()-1);
+            System.out.println(S+"\n"+Sreturn);
 
     }
 }
